@@ -66,7 +66,7 @@ body {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/****** Hebergements a Marseille***********/
 .hebergements {
     width: 65%;
 }
@@ -83,15 +83,17 @@ body {
     grid-template-columns: repeat(auto-fill,250.33px);
     gap: 10px;
     justify-content: center;
+    border: 1px solid blue;
 }
 
 .hotel-du-port{
     background-color: #ffffff;
     border-radius: 20px 20px 0px 0px;
+    border: 1px solid red;
 }
 
 .hotel-du-port img{
-    width: 240.33px;
+    width: 95.5%;
     height: 119px;
     border-top: 5px solid #FFFF;
     border-left: 5px solid #FFFF;
@@ -122,7 +124,7 @@ body {
 
 .container_nav_bar3{
     font-weight: bolder;
-    padding-top: 10%;
+    padding-top: 5%;
     display: flex;
     align-items: flex-start;
 }
@@ -134,19 +136,21 @@ body {
 
 /*Activités à Marseille*/
 .activity-and-picture{
-    background-color: rgb(238, 238, 238);
-    border-radius: 20px 20px 20px 20px;
+    display: block;
 }
 
 .activity-and-picture article{
     height: 450px;
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px rgb(196, 196, 196), -4px -4px 10px rgb(196, 196, 196);
 }
 
 .activity-and-picture img{
     width: 100%;
     height: 90%;
+    border-radius: 20px 20px 0px 0px ;
 }
 
 .activity-and-picture h2{
@@ -155,10 +159,10 @@ body {
 
 .picture-container{
    
-    padding: 30px;
+    padding: 30px 0px 65px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 260px);
-    gap: 30px;
+    gap: 55px;
     justify-content: center;
 }
 
@@ -430,7 +434,7 @@ nav{
     border: 0.1px solid blue;
     display: flex;
     flex-flow: row wrap;
-    gap: 17%;
+    gap: 18%;
 }
 
 .container-liens_footer1{
@@ -448,6 +452,10 @@ nav{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+/*Hébergements à Marseille*/
+
+/*Les plus populaires*/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -479,14 +487,10 @@ nav{
         font-size: 13px;
     }
 
-/*Hébergement a Marseille*/
-
-
 /*Activité Marseille*/
     .activity-and-picture article{
-        height: 50%;
-        width: 193.5px;
-        border: 1px solid yellow;
+        height: 195px;
+        width: 100%;
     }
 
     .activity-and-picture img{
@@ -496,18 +500,27 @@ nav{
     .activity-and-picture h2{
         font-size: 71%;
         display: flex;
+        margin-left: 10px;
         
     }
 
     .picture-container{
         gap: 4.5%;
         display: flex;
-        padding: 0px 0px 30px 0px;
+        padding: 0px 0px 35px 0px;
     }
 
 /*FOOTER*/
     .container_footer{
-        gap: 9.95%;
+        gap: 13.87%;
+    }
+
+    .container-liens_footer1 h1{
+        font-size: 120%;
+    }
+
+    .container-liens_footer1 a{
+        font-size: 100%;
     }
 }
 
