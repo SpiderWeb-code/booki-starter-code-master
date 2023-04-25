@@ -83,13 +83,11 @@ body {
     grid-template-columns: repeat(auto-fill,250.33px);
     gap: 10px;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .hotel-du-port{
     background-color: #ffffff;
     border-radius: 20px 20px 0px 0px;
-    border: 1px solid red;
 }
 
 .hotel-du-port img{
@@ -452,8 +450,29 @@ nav{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
+    
 /*Hébergements à Marseille*/
+    .hebergements-container{
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        justify-content: space-around; 
+    }
+
+    .hotel-du-port{
+        width: 100%;
+        
+    }
+
+    .hotel-du-port h2{
+        margin-bottom: 0px;
+        font-size: 80%;
+    }
+
+    .hotel-du-port p{
+        margin-top: 4.5px;
+        margin-bottom: 0px;
+        font-size: 70%;
+    }
 
 /*Les plus populaires*/
     .hebergements-and-populaires {
@@ -527,4 +546,9 @@ nav{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+/*Hébergement à Marseille*/
+    .hebergements-container{
+        grid-template-columns: repeat(auto-fill, 190px);
+    }
 }
