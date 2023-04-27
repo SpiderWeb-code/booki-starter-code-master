@@ -222,6 +222,7 @@ body {
 .logo-header{
     width: 40%;
 }
+
 /*Fin LOGO*/
 
 /******Liens******/
@@ -237,11 +238,21 @@ nav{
 }
 
 .link_1{
-    color: #0065FC;
+    color: black;
 }
 
 .link_2{
     color: black;
+}
+
+.link_1:hover{
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+.link_2:hover{
+    color: #0065FC ;
+    text-decoration: overline;
 }
 
 #container_nav{
@@ -249,19 +260,9 @@ nav{
     width: 30%;
     justify-content: space-around;
     align-items: center;
-    gap: 5%;
-    border: 1px solid red;
     flex-wrap: wrap;
 }
 
-.container_nav_bar1{
-    
-    
-}
-
-.container_nav_bar2{ 
-    
-}
 /*Fin liens */
 
 /******Text HEADER******/
@@ -330,10 +331,6 @@ nav{
     display: flex;
     align-items: center;
     gap: 8px;
-}
-.filtres{
-    /* width: 54px; */
-    /* size: 21px; */
 }
 
 .container_bouton_filtres {
@@ -429,14 +426,9 @@ nav{
 /*Fin du Text sur les 500 Logements*/
 /*Footer*/
 .container_footer{
-    border: 0.1px solid blue;
     display: flex;
     flex-flow: row wrap;
     gap: 18%;
-}
-
-.container-liens_footer1{
-    border: 1px solid rgb(255, 22, 243);
 }
 
 .container-liens_footer1 a{
@@ -450,6 +442,75 @@ nav{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+/*Logo*/
+.logo-header{
+    width: 30%;
+}
+
+/*Liens (Hébergement,Activités)*/
+#container_nav{
+    width: 35%;
+}
+
+.link_1{
+    font-size: 82.5%;
+}
+
+.link_2{
+    font-size: 82.5%;
+}
+
+/*Trouvez votre Hébergement*/
+.vacances-de-rêve{
+    font-size: 100%;
+}
+
+/* En plein centre-ville*/
+.en-plein-centre-ville{
+    font-size: 90%;
+}
+
+/*Recherche (image,text,bouton)*/
+
+.container_research_1{
+    max-width: 326px;
+    width: 50%;
+}
+
+/*Filtres (Economique,Familial,Romantique,Nos-Pépites)*/
+
+.container_bouton_filtre{
+    width: 90%;
+}
+
+.container_bouton_filtres{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.container_bouton{
+    height: 30px;
+}
+
+.container_bouton_text{
+    font-size: 14px;
+    height: 90px;
+    
+}
+
+.container_bouton input{
+    font-size: 90%;
+}
+
+.container_bouton i{
+    font-size: 75%;
+}
+
+/*Plus de 500 logements sont disponibles (text)*/   
+.cinq-cents_logements-text{
+    font-size: 90%;
+}
     
 /*Hébergements à Marseille*/
     .hebergements-container{
@@ -460,7 +521,6 @@ nav{
 
     .hotel-du-port{
         width: 100%;
-        
     }
 
     .hotel-du-port h2{
@@ -535,7 +595,7 @@ nav{
     }
 
     .container-liens_footer1 h1{
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .container-liens_footer1 a{
@@ -546,6 +606,30 @@ nav{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+/*HEADER*/
+
+nav{
+    height: 74px;
+    display: flex;
+    justify-content: none;
+    align-items: center;
+}
+
+.link_1{
+    color: black;
+}
+
+.link_2{
+    color: black;
+}
+
+#container_nav{
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 /*Hébergement à Marseille*/
     .hebergements-container{
