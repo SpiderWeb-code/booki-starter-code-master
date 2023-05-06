@@ -451,6 +451,8 @@ nav{
 
 .container-liens_footer1 a{
     color: black;
+    display: flex;
+    padding-bottom: 5%;
 }
 
 
