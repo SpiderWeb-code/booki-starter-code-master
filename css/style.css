@@ -87,7 +87,7 @@ body {
 
 .hotel-du-port{
     background-color: #ffffff;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .hotel-du-port img{
@@ -114,6 +114,7 @@ body {
 .hotel-du-port i{
     font-size: 13.25px;
     gap: 2.5px;
+    padding-bottom: 10px;
 }
 
 .image-etoile_hebergement{
@@ -138,16 +139,15 @@ body {
 }
 
 .activity-and-picture article{
-    height: 450px;
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 4px 4px 10px rgb(196, 196, 196), -4px -4px 10px rgb(196, 196, 196);
 }
 
 .activity-and-picture img{
     width: 100%;
-    height: 90%;
+    height: 300px;
     border-radius: 20px 20px 0px 0px ;
 }
 
@@ -246,21 +246,40 @@ nav{
 }
 
 .link_1:hover{
-    color: #0065FC;
-    text-decoration: overline;
+    color: #0065FC ;
 }
 
 .link_2:hover{
     color: #0065FC ;
-    text-decoration: overline;
 }
 
 #container_nav{
     display: flex;
+    height: 74px;
     width: 30%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.nav-lien1{
+    height: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.nav-lien2{
+    height: auto;
+    width: 28%;
+    text-align: center;
+}
+
+.nav-lien1:hover{
+    border-top: 1px solid rgb(13, 27, 236) ;
+}
+
+.nav-lien2:hover{
+    border-top: 1px solid rgb(13, 27, 236) ;
 }
 
 /*Fin liens */
@@ -295,17 +314,25 @@ nav{
     border: none;
 }
 
-.container_research_1 i{
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top: 15px;
+.container-emoji-localisation{
+    width: 30%;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px 0px 0px 0px;
+}
+
+.fa-location-dot{
     color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa-magnifying-glass{
     position: absolute;
     font-size: 0;
+    color: white !important;
 }
 
 #items_1{
@@ -315,15 +342,16 @@ nav{
     text-align: center;
     font-size: 14px;
     font-weight: bold;
+    border: 1px solid rgb(199, 199, 199);
 }
 
 #items_2{
     height: 100%;
-    width: 50%;
+    width: 65%;
     background-color: #0065FC;
     color: aliceblue;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -340,7 +368,7 @@ nav{
 .container_bouton_filtres {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 23px;
 }
 
 .container_bouton_text {
@@ -415,6 +443,10 @@ nav{
     display: flex;
     flex-flow: row wrap;
     gap: 18%;
+    background-color: rgb(235, 235, 235);
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .container-liens_footer1 a{
@@ -475,10 +507,11 @@ nav{
 .container_bouton_filtres{
     position: absolute;
     margin-top: 50px;
+    gap: 8px;
 }
 
 .container_bouton{
-    height: 30px;
+    height: 40px;
 }
 
 .container_bouton_text{
@@ -556,12 +589,12 @@ nav{
 
 /*Activité Marseille*/
     .activity-and-picture article{
-        height: 195px;
+        height: 300px;
         width: 100%;
     }
 
     .activity-and-picture img{
-        height: 150px;
+        height: 250px;
     }
 
     .activity-and-picture h2{
@@ -616,7 +649,6 @@ nav{
 
 .link_1:hover{
     color: #0065FC;
-    text-decoration: underline;
 }
 
 .link_2{
@@ -626,15 +658,24 @@ nav{
 
 .link_2:hover{
     color: #0065FC;
-    text-decoration: underline;
+}
+
+.nav-lien1:hover{
+    border-top: none;
+    border-bottom: 1px solid rgb(13, 27, 236) ;
+}
+
+.nav-lien2:hover{
+    border-top: none;
+    border-bottom: 1px solid rgb(13, 27, 236) ;
 }
 
 #container_nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    align-items: none;
-    flex-wrap: none;
+    align-items: unset;
+    flex-wrap: unset;
 }
 
 /*Trouvez votre Hébergement*/
@@ -657,8 +698,13 @@ nav{
     min-width: 100%;
 }
 
+.container-emoji-localisation{
+    background-color: white;
+}
+
 #items_1{
     font-size: 65%;
+    border: none;
 }
 
 #items_2{
@@ -676,6 +722,7 @@ nav{
     font-size: 15px;
     right: 75px;
     left: auto;
+    padding-top: 15px;
 }
 
 /*Filtres*/
@@ -703,7 +750,7 @@ nav{
 
 .container_bouton{
     width: 70px;
-    height: 40px;
+    height: 30px;
 }
 
 /*Plus de 500 logements*/
@@ -740,6 +787,8 @@ nav{
 
 .hotel-du-port{
     width: 100%;
+    
+    box-shadow: 3px 3px 10px rgb(207, 207, 207), -3px -3px 10px rgb(207, 207, 207);
 }
 
 .hebergement-a-marseille{
