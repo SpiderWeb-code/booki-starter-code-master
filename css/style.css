@@ -351,7 +351,6 @@ nav{
 }
 
 .fa-magnifying-glass{
-    position: absolute;
     font-size: 0;
     color: white !important;
 }
@@ -369,6 +368,7 @@ nav{
 #items_2{
     height: 100%;
     width: 65%;
+    border: none;
     background-color: #0065FC;
     color: aliceblue;
     font-weight: 900;
@@ -756,21 +756,19 @@ nav{
 }
 
 #items_2{
-    position: absolute;
-    right: 22.5px;
-    height: 49px;
-    width: 53px;
+    width: 50px;
     background-color: #0065FC;
     color: #0065FC;
     font-size: 18px;
     border-radius: 15px 15px 15px 15px;
 }
 
+#rechercher{
+    font-size: 0;
+}
+
 .fa-magnifying-glass{
-    position: absolute;
     font-size: 15px;
-    right: 41px;
-    padding-top: 15px;
 }
 
 /*Filtres*/
