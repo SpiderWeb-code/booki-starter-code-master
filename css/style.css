@@ -161,6 +161,7 @@ body {
     width: 100%;
     height: 300px;
     border-radius: 20px 20px 0px 0px ;
+    object-fit: cover;
 }
 
 .activity-and-picture h2{
@@ -192,7 +193,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .populaires-cards .card {
     display: flex;
@@ -420,7 +420,6 @@ nav{
 .container_bouton input{
     font-size: 17px;
     display: flex;
-    justify-content: center;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -655,9 +654,39 @@ nav{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+/******Correction soutenance a la PixelPerfect********/
+
+/*Filtres*/
+.container_bouton i{
+    font-size: 16.25px;
+}
+#items_3{
+    padding-left: 10px;
+}
+
+#items_4{
+    padding-left: 14.56px;
+}
+
+#items_5{
+    padding-left: 10px;
+}
+
+#items_6{
+    padding-left: 11.5px;
+}
+
+/*Les plus populaires*/
+.populaires-cards .card{
+    margin-top: 15px;
+}
+
 .main-container{
     padding: 0;
 }
+
+/*Hébergements a Marseille*/
 /*HEADER*/
 nav{
     width: 100%;
@@ -790,7 +819,7 @@ nav{
     height: 100px;
     width: 90%;
     max-width: 302px;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns:  repeat(2, auto);
     align-items: center;
     justify-content: space-around;
     font-size: 12px;
@@ -895,7 +924,6 @@ nav{
 
 .picture-container img{
     height: 70%;
-    object-fit: cover;
 }
 
 .picture-container h2{
