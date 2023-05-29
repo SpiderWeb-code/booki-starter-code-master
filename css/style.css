@@ -84,7 +84,7 @@ body {
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,30%);
-    gap: 34px;
+    gap: 41px;
     justify-content: center;
 }
 
@@ -150,6 +150,8 @@ body {
 
 .activity-and-picture h1{
     margin-left: 2%;
+    margin-bottom: 0;
+    margin-top: 65px;
 }
 
 .activity-and-picture article{
@@ -488,8 +490,6 @@ nav{
     font-weight: 400;
 }
 
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -632,10 +632,13 @@ nav{
 .activity-and-picture{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 65px;
 }
 
 .activity-and-picture h1{
     margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 22px;
 }
 
@@ -962,8 +965,8 @@ nav{
 /*****Activités à Marseille*****/
 
 .activity-and-picture{
-    margin-top: 85px;
-    padding: 0px 20px 0px 20px;
+    margin-top: 58px;
+    padding: 0px 30px 0px 30px;
 }
 
 .activity-and-picture h1{
@@ -997,16 +1000,25 @@ nav{
     padding: 0px 20px 0px 20px;
 }
 
+.container-liens_footer1 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 .container-liens_footer1{
     margin-bottom: 10px;
 }
 
 .container-liens_footer1 a{
-    padding-bottom: 15px;
+    padding-bottom: 16px;
 }
 
 .container-liens_footer1 h1{
     font-size: 18px;
+}
+
+#fin-footer{
+    padding-bottom: 30px;
 }
 
 .container-liens_footer2{
