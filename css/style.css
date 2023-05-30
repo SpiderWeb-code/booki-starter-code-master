@@ -402,7 +402,7 @@ nav{
 .container_bouton_text {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700px;
+    font-weight: bolder;
     font-size: 18px;
     line-height: 21px;
 }
@@ -874,6 +874,10 @@ nav{
 .hebergements-and-populaires section {
     border-radius: 0;
     padding: 0px;
+}
+
+.populaires-title{
+    padding-right: 20px;
 }
 
 .section-title{
