@@ -171,6 +171,8 @@ body {
 .activity-and-picture h2{
     font-size: 16px;
     margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .picture-container{
@@ -445,8 +447,8 @@ nav{
 .cinq-cents_logements{
     display: flex;
     align-items: center;
-    margin-top: 37.5px;
-    margin-bottom: 37.5px;
+    margin-top: 27.5px;
+    margin-bottom: 27.5px;
     height: 37.5px;
 }
 .cinq-cents_logements i{
@@ -479,13 +481,14 @@ nav{
 
 .container_footer h1{
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .container-liens_footer1 a{
     color: black;
     display: flex;
     font-size: 16px;
-    padding-bottom: 5%;
+    padding-bottom: 15px;
     font-weight: 400;
 }
 
@@ -503,16 +506,20 @@ nav{
 
 /*Liens (Hébergement,Activités)*/
 
+nav{
+    margin-bottom: 25px;
+}
+
 #container_nav{
     width: 35%;
 }
 
 .link_1{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .link_2{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*Trouvez votre Hébergement*/
@@ -537,6 +544,7 @@ nav{
 
 .filtres{
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .container_bouton_filtre{
@@ -546,7 +554,7 @@ nav{
 .container_bouton_filtres{
     position: absolute;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
     gap: 15px;
 }
 
@@ -570,11 +578,13 @@ nav{
 /*Plus de 500 logements sont disponibles (text)*/   
 .cinq-cents_logements-text{
     font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .cinq-cents_logements{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 37.5px;
+    margin-bottom: 37.5px;
 }
     
 /*Hébergements à Marseille*/
@@ -629,6 +639,7 @@ nav{
 
     .populaires-cards .card {
         width: 30%;
+        margin-top: 20px;
     }
 
     .populaires-cards .card-title {
@@ -648,7 +659,7 @@ nav{
 }
 
 .activity-and-picture h1{
-    margin-left: 0;
+    margin-left: 10px;
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 22px;
@@ -668,10 +679,9 @@ nav{
     }
 
     .activity-and-picture h2{
-        font-size: 14px;
+        font-size: 16px;
         display: flex;
-        margin-left: 10px;
-        
+        margin-left: 19px
     }
 
     .picture-container{
@@ -717,12 +727,11 @@ nav{
 
 .logo-header{
     margin-top: 10px;
-    width: 59px;
 }
 
 .link_1{
     color: black;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .link_1:hover{
@@ -731,7 +740,7 @@ nav{
 
 .link_2{
     color: black;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .link_2:hover{
@@ -846,7 +855,6 @@ nav{
     max-width: 340px;
     min-width: 285px;
     align-items: center;
-    justify-content: space-between;
     font-size: 12px;
     flex-wrap:wrap;
 }
@@ -976,7 +984,8 @@ nav{
 }
 
 .hebergement-a-marseille{
-    font-size: 20px;
+    font-size: 22px;
+    padding-bottom: 0;
 }
 
 .hebergement-a-marseille {
@@ -1008,8 +1017,9 @@ nav{
 }
 
 .activity-and-picture h1{
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 30px;
+    margin-left: 0;
 }
 
 .picture-container{
